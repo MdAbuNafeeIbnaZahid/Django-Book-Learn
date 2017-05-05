@@ -17,7 +17,6 @@ class Publisher(models.Model):
         ordering = ['country']
 
 
-
 class Author(models.Model):
     first_name = models.CharField(max_length=30)
     last_name = models.CharField(max_length=40)
